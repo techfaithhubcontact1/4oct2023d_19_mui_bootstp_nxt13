@@ -1,6 +1,9 @@
 import './globals.css'
+
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import { Roboto } from 'next/font/google'
+
 
 const roboto = Roboto({ 
   subsets: ['latin'],
@@ -8,6 +11,7 @@ const roboto = Roboto({
 });
 
 export const metadata = {
+
   title: 'Materia UI',
   description: 'Material UI and Bootstrap Cmponents',
 }
